@@ -17,16 +17,16 @@ Manifests must be served using the `text/cache-manifest` MIME type. For Apache, 
 To avoid expiry issues that may lead to insanity I suggest checking out the `htaccessSample` file.
 
 ## Sample usage
-	<!DOCTYPE html>
-	&lt;html manifest="/path/to/manifest/myManifest.appcache"&gt;
-	&lt;head&gt;
-	&lt;meta charset="utf-8" /&gt;
-	&lt;title&gt;Sexy title&lt;/title&gt;
-	&lt;/head&gt;
-	&lt;body&gt;
+	&lt;!DOCTYPE html>
+	<html manifest="/path/to/manifest/myManifest.appcache">
+	<head>
+	<meta charset="utf-8" />
+	<title>Sexy title</title>
+	</head>
+	<body>
 		Hi, I'm using a manifest and shit!
-	&lt;/body&gt;
-	&lt;/html&gt;
+	</body>
+	</html>
 
 ## Further reading
 
