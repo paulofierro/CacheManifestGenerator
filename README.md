@@ -16,7 +16,16 @@ Manifests must be served using the `text/cache-manifest` MIME type. For Apache, 
 
 To avoid expiry issues that may lead to insanity I suggest checking out the `htaccessSample` file.
 
-## Sample usage
+## To run
+
+1. Edit `cacheManifestGenerator.rb` and ensure that the `PATH`, `FILE_TYPES` and `IGNORE_FILES` are set to your liking
+2. In a Terminal window, navigate to the same path on your system
+3. Enter `ruby cacheManifestGenerator.rb`
+
+## Sample usage in HTML
+
+Once the manifest has been created, update your HTML file as follows:
+
 	<!DOCTYPE html>
 	<html manifest="/path/to/manifest/myManifest.appcache">
 	<head>
