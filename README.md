@@ -17,7 +17,7 @@ Manifests must be served using the `text/cache-manifest` MIME type. For Apache, 
 To avoid expiry issues that may lead to insanity I suggest checking out the `htaccessSample` file.
 
 ## Sample usage
-	&lt;!DOCTYPE html>
+	<!DOCTYPE html>
 	<html manifest="/path/to/manifest/myManifest.appcache">
 	<head>
 	<meta charset="utf-8" />
