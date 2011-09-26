@@ -1,5 +1,8 @@
 #
 # Sample .htaccess file for Apache
+# Put it in the same folder as your manifest, not in the root,
+# otherwise no files will cache. I suggest creating a separate
+# folder i.e. /manifest/ where you put this file and the manifest.
 #
 
 # Serve the manifest with the right file mime type
