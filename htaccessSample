@@ -1,0 +1,11 @@
+#
+# Sample .htaccess file for Apache
+#
+
+# Serve the manifest with the right file mime type
+AddType text/cache-manifest .appcache
+AddType text/cache-manifest .manifest
+
+# Ensure that it is never cached so we dont go insane
+ExpiresActive On
+ExpiresDefault "access"
