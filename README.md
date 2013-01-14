@@ -39,7 +39,7 @@ Once the manifest has been created, update your HTML file as follows:
 
 ## Further reading
 
-[Automatically generating an HTML5 cache manifest](http://www.paulofierro.com/archives/571/) - My blog post about this tool
+[Automatically generating an HTML5 cache manifest](http://paulofierro.com/blog/2011/6/9/automatically-generating-an-html5-cache-manifest) - My blog post about this tool
 
 [Dive into HTML5 - Offline Web Applications](http://diveintohtml5.org/offline.html)
 
