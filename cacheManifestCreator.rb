@@ -14,10 +14,11 @@ PATH_PREFIX = "/"
 OUTPUT = "offline.appcache"
 
 # Get an array of the files, list excluded directories
+# Directories end with a slash, to prevent similar filenames from being excluded
 files = Dir[PATH + "**/*.{" + FILE_TYPES + "}"].reject{ |f| 
-	f['some-directory'] || 
-	f['another-directory'] ||
-	f['and-another-directory']
+	f['some-directory/'] || 
+	f['another-directory/'] ||
+	f['and-another-directory/']
 	}
 
 # Check if we have any files
